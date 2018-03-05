@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logos"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:textColorHint="#434242"
+        android:hint="Enter Firstname"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fstname" />
+
+    <EditText
+        android:id="@+id/lstname"
+        android:layout_margin="10dp"
+        android:textColorHint="#434242"
+        android:hint="Enter Lastname"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/qualification"
+        android:layout_margin="10dp"
+        android:textColorHint="#434242"
+        android:hint="Enter Qualification"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_margin="10dp"
+        android:textColorHint="#434242"
+        android:hint="Enter Email"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/mnbr"
+        android:layout_margin="10dp"
+        android:textColorHint="#434242"
+        android:hint="Enter Mobile No"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/domain"
+        android:layout_margin="10dp"
+        android:textColorHint="#434242"
+        android:hint="Enter Domain"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sal"
+        android:layout_margin="10dp"
+        android:textColorHint="#434242"
+        android:hint="Enter Salary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/company"
+         android:layout_margin="10dp"
+         android:textColorHint="#434242"
+         android:hint="Enter Company name"
+         android:textSize="18sp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_margin="10dp"
+        android:textColorHint="#434242"
+        android:hint="Enter Adress"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/submit"
+           android:layout_margin="20dp"
+            android:text=" Submit "
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="#10e2f1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/view"
+            android:layout_margin="20dp"
+            android:text=" viewdata "
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="#10e2f1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/update"
+                android:layout_margin="20dp"
+                android:text=" Update "
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:background="#10e2f1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/delete"
+                android:layout_margin="20dp"
+                android:text=" Delete "
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:background="#10e2f1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
